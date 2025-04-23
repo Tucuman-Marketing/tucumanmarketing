@@ -1,0 +1,57 @@
+[
+    {
+        "model-name": "CashFlowSubSector",
+        "resource-file": "cash_flow_sub_sectors.json",
+        "table-name": "cf_subsectors"
+    },
+    {
+        "model-name": "CashFlowCategory",
+        "resource-file": "cash_flow_categories.json",
+        "table-name": "cf_categories"
+    },
+    {
+        "model-name": "CashFlowSubCategory",
+        "resource-file": "cash_flow_sub_categories.json",
+        "table-name": "cf_subcategories"
+    },
+    {
+        "model-name": "CashFlow",
+        "resource-file": "cash_flows.json",
+        "table-name": "cf_cash_flows"
+    },
+    {
+        "model-name": "CashFlowUnit",
+        "resource-file": "cash_flow_units.json",
+        "table-name": "cf_units"
+    },
+    {
+        "model-name": "CashFlowUnitDetail",
+        "resource-file": "cash_flow_unit_details.json",
+        "table-name": "cf_unit_details"
+    },
+    {
+        "model-name": "CashFlowUnitCategory",
+        "resource-file": "cash_flow_unit_categories.json",
+        "table-name": "cf_unit_category"
+    },
+    {
+        "model-name": "SubscriptionPay",
+        "resource-file": "subscription_pays.json",
+        "table-name": "subscription_pays"
+    },
+    {
+        "model-name": "SubscriptionPlanService",
+        "resource-file": "subscription_plan_services.json",
+        "table-name": "subscription_plan_services"
+    },
+    {
+        "model-name": "SubscriptionPlan",
+        "resource-file": "subscription_plans.json",
+        "table-name": "subscription_plans"
+    },
+    {
+        "model-name": "Subscription",
+        "resource-file": "subscriptions.json",
+        "table-name": "subscriptions"
+    }
+]

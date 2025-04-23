@@ -1,0 +1,11 @@
+{
+    "name": "CoreForm",
+    "alias": "coreform",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CoreForm\\Providers\\CoreFormServiceProvider"
+    ],
+    "files": []
+}

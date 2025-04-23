@@ -1,0 +1,11 @@
+{
+    "name": "PosModule",
+    "alias": "posmodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PosModule\\Providers\\PosModuleServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "WebContent",
+    "alias": "webcontent",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\WebContent\\Providers\\WebContentServiceProvider"
+    ],
+    "files": []
+}

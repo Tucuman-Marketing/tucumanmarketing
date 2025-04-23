@@ -1,0 +1,19 @@
+{
+    "Tickets": true,
+    "Blog": true,
+    "Receipts": true,
+    "Expenses": true,
+    "Setting": true,
+    "Translations": true,
+    "WebContent": true,
+    "CashFlow": true,
+    "Vehicles": true,
+    "SubscriptionsModule": true,
+    "PaymentMethodsModule": true,
+    "ServiceModule": true,
+    "PosModule": true,
+    "FileUploadModule": true,
+    "Product": true,
+    "CoreForm": true,
+    "Recruitment": true
+}
