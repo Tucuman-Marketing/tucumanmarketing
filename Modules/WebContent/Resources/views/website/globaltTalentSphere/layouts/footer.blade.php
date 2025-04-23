@@ -1,48 +1,136 @@
-<footer id="footer">
-    <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-        <div class="brend" style="margin-bottom: 20px;">
-            <div class="logo" style="margin-bottom: 10px;">
-                <img src="{{asset('theme-front/globaltalentsphere/img/icons/logo_wiva.png')}}" alt="Wiva - Consultora" style="display: block; margin: 0 auto;">
-                <span style="font-size: 18px; font-weight: bold; display: block;">&nbsp;</span>
+<!-- Start Footer Area -->
+<section class="footer-area pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="footer-logo">
+                        <h2><a href="#">Tucumán Marketing</a></h2>
+
+                        <p>Tu socio estratégico en marketing digital en Tucumán. Impulsamos el crecimiento de tu negocio con soluciones digitales innovadoras.</p>
+
+                        <ul class="social">
+                            <li>
+                                <a href="#" class="facebook" target="_blank">
+                                    <i class='bx bxl-facebook'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter" target="_blank">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="pinterest" target="_blank">
+                                    <i class='bx bxl-instagram'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="linkedin" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <p style="margin: 5px 0;">Email : wiva.consultora@gmail.com</p>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Contacto</h3>
 
-            <!-- Agregar los íconos de redes sociales -->
-            <div class="social-icons" style="text-align: center; margin-top: 10px;">
-                <a href="https://www.linkedin.com/company/wiva-consultora" target="_blank"><i class="fab fa-linkedin-in" style="margin: 0 10px; font-size: 24px; color: whitesmoke;"></i></a> <!-- LinkedIn -->
-                <a href="https://www.instagram.com/wiva.ar" target="_blank"><i class="fab fa-instagram" style="margin: 0 10px; font-size: 24px; color: whitesmoke;"></i></a> <!-- Instagram -->
-                {{-- <a href="" target="_blank"><i class="fab fa-tiktok" style="margin: 0 10px; font-size: 24px; color: whitesmoke;"></i></a> <!-- TikTok --> --}}
-                {{-- <a href="https://www.facebook.com/profile.php?id=61565403375823" target="_blank"><i class="fab fa-facebook-f" style="margin: 0 10px; font-size: 24px; color: whitesmoke;"></i></a> <!-- Facebook --> --}}
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class='bx bxs-phone'></i>
+                            <span>Teléfono</span>
+                            <a href="tel:+543814567890">+54 381 456-7890</a>
+                        </li>
+                        <li>
+                            <i class='bx bx-envelope'></i>
+                            <span>Email</span>
+                            <a href="mailto:info@tucumanmarketing.com">info@tucumanmarketing.com</a>
+                        </li>
+                        <li>
+                            <i class='bx bx-map'></i>
+                            <span>Dirección</span>
+                            San Miguel de Tucumán, <br> Tucumán, Argentina
+                        </li>
+                    </ul>
+                </div>
             </div>
 
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget pl-5">
+                    <h3>Servicios</h3>
+
+                    <ul class="quick-links">
+                        <li>
+                            <a href="#">Marketing Digital</a>
+                        </li>
+                        <li>
+                            <a href="#">Redes Sociales</a>
+                        </li>
+                        <li>
+                            <a href="#">Diseño Web</a>
+                        </li>
+                        <li>
+                            <a href="#">SEO</a>
+                        </li>
+                        <li>
+                            <a href="#">Publicidad Online</a>
+                        </li>
+                        <li>
+                            <a href="#">Email Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#">Consultoría</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Ayuda y guía</h3>
+
+                    <ul class="quick-links">
+                        <li>
+                            <a href="#">Política de privacidad</a>
+                        </li>
+                        <li>
+                            <a href="#">Términos y condiciones</a>
+                        </li>
+                        <li>
+                            <a href="#">Preguntas frecuentes</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div style="width: 100%; max-width: 500px; padding-top: 10px; margin: 0 auto; text-align: center;">
-            <div class="nav_f" style="display: flex; justify-content: center;">
-                <span>Copyright © 2025 Wiva.</span>
-            </div>
-            <div style="display: flex; justify-content: center;">
-                <p>Design by <a href="https://nerdostech.com/" target="_blank" style="color: whitesmoke; text-decoration: none;">NerdosTech</a></p>
-            </div>
-        </div>
-
     </div>
-</footer>
-    <!-- Tap on Top-->
-    <div class="tap-top">
-        <div><i class="fa fa-angle-double-up"></i></div>
-    </div>
-    <!-- Tap on Ends-->
-    <!-- Whatsapp-->
-    {{-- <a href="https://wa.me/+5491133703188" class="whatsapp-button" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a> --}}
+</section>
+<!-- End Footer Area -->
 
-    <div class="share-widget">
-        <a href="#social-channels-a"><span class="sr-only">Compartir</span></a>
-        <div class="channels" tabindex="-1" id="social-channels-a">
-            <a href="https://www.linkedin.com/company/wiva-consultora" class="linkedin" target="_blank" aria-label="LinkedIn"></a>
-            <a href="https://www.instagram.com/wiva.ar" class="instagram" target="_blank" aria-label="Instagram"></a>
-            <a href="https://wa.me/+5491133703188" class="whatsapp" target="_blank" aria-label="WhatsApp"></a>
+<!-- Start Copy Right Area -->
+<div class="copyright-area">
+    <div class="container">
+        <div class="copyright-area-content">
+            <p>
+                Copyright © {{ date('Y') }} Tucumán Marketing. Todos los derechos reservados.
+            </p>
         </div>
     </div>
+</div>
+<!-- End Copy Right Area -->
+
+<!-- Start Go Top Area -->
+<div class="go-top">
+    <i class='bx bx-up-arrow-alt'></i>
+</div>
+<!-- End Go Top Area -->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
     {{-- HEAD --}}
     @section('htmlheader')
@@ -8,66 +8,137 @@
     {{-- HEAD --}}
 
 <body>
+
+<!-- Start Preloader Area -->
+<div class="preloader">
+    <div class="loader">
+        <div class="shadow"></div>
+        <div class="box"></div>
+    </div>
+</div>
+<!-- End Preloader Area -->
+
+<!-- Start Top Header Area -->
+<div class="top-header-area">
     <div class="container">
-        <div class="menu d-flex align-items-center">
-            <a class="logo" href="{{ route('public.index')}}">
-                <img src="{{asset('theme-front/globaltalentsphere/img/icons/logo_circular_avatar7.png')}}">
-            </a>
-            <div class="menu__icon">
-                <span></span><span></span><span></span><span></span>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <ul class="top-header-information">
+                    <li>
+                        <i class='bx bx-envelope'></i>
+                        <a href="mailto:info@tucumanmarketing.com">info@tucumanmarketing.com</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-phone'></i>
+                        <a href="tel:+543814567890">+54 381 456-7890</a>
+                    </li>
+                </ul>
             </div>
-            <div class="navbar-nav">
-                <ul>
-                    <li><a href="{{ route('public.index')}}">Inicio</a></li>
-                    <li><a href="{{ route('public.uploadCV')}}">Dejanos tu CV</a></li>
-                    <li><a href="{{ route('public.jobs')}}">Oportunidades</a></li>
-                    <li><a href="{{ route('public.company') }}">Empresas</a></li>
-                    <li><a href="{{ route('public.about')}}">Nosotros</a></li>
-                    <li><a href="{{ route('public.posts')}}">Blog</a></li>
-                    <li><a href="{{ route('public.contact')}}">Contacto</a></li>
+
+            <div class="col-lg-6">
+                <ul class="top-header-others">
+                    <li>
+                        <i class='bx bxs-map'></i>
+                        <a href="#">Ubicaciones</a>
+                    </li>
+
+                    <li class="languages-list">
+                        <select>
+                            <option value="1">Español</option>
+                            <option value="2">English</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <i class='bx bx-user'></i>
+                        <a href="#">Iniciar Sesión</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
+</div>
+<!-- End Top Header Area -->
 
+<!-- Start Navbar Area -->
+<div class="navbar-area">
+    <div class="main-responsive-nav">
+        <div class="container">
+            <div class="main-responsive-menu">
+                <div class="logo">
+                    <a href="{{ route('public.index') }}">
+                        <img src="{{ asset('theme-front/tucumanmarketing/img/logo-1.png') }}" class="black-logo" alt="Tucumán Marketing">
+                        <img src="{{ asset('theme-front/tucumanmarketing/img/white-logo.png') }}" class="white-logo" alt="Tucumán Marketing">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="main-navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="{{ route('public.index') }}">
+                    <img src="{{ asset('theme-front/tucumanmarketing/img/logo-1.png') }}" class="black-logo" alt="Tucumán Marketing">
+                    <img src="{{ asset('theme-front/tucumanmarketing/img/white-logo.png') }}" class="white-logo" alt="Tucumán Marketing">
+                </a>
 
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="{{ route('public.index') }}" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('public.uploadCV') }}" class="nav-link">Dejanos tu CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('public.jobs') }}" class="nav-link">Oportunidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('public.company') }}" class="nav-link">Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('public.about') }}" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('public.posts') }}" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('public.contact') }}" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
 
-    @yield('content')
+                    <div class="others-options d-flex align-items-center">
+                        <div class="option-item">
+                            <form class="search-box" action="#" method="GET">
+                                <input type="text" class="form-control" name="q" placeholder="Buscar...">
+                                <button type="submit"><i class="flaticon-loupe"></i></button>
+                            </form>
+                        </div>
 
-    <!--footer start-->
-    @include('webcontent::website.globaltTalentSphere.layouts.footer')
-    <!--footer end-->
+                        <div class="option-item">
+                            <a href="#" class="default-btn">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Navbar Area -->
 
-{{-- js para mover la linea de abajo del menu --}}
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Obtener la URL completa actual
-    const currentUrl = window.location.href;
+@yield('content')
 
-    // Seleccionar todos los enlaces del menú
-    const menuLinks = document.querySelectorAll('.navbar-nav ul li a');
+<!--footer start-->
+@include('webcontent::website.globaltTalentSphere.layouts.footer')
+<!--footer end-->
 
-    // Recorrer cada enlace para compararlo con la URL actual
-    menuLinks.forEach(link => {
-        // Comprobar si el href del enlace coincide con la URL actual
-        if (link.href === currentUrl) {
-            // Quitar la clase 'active' de todos los elementos del menú
-            menuLinks.forEach(link => link.parentElement.classList.remove('active'));
-
-            // Añadir la clase 'active' al elemento padre <li> del enlace actual
-            link.parentElement.classList.add('active');
-        }
-    });
-});
-</script>
-
-    <!--scripts-->
-    @section('scripts')
-        @include('webcontent::website.globaltTalentSphere.layouts.scripts')
-    @show
-    <!--scripts-->
-
+<!--scripts-->
+@section('scripts')
+    @include('webcontent::website.globaltTalentSphere.layouts.scripts')
+@show
+<!--scripts-->
 
 </body>
 </html>
