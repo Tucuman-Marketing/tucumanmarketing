@@ -122,7 +122,7 @@
     <div class="container">
         <div class="copyright-area-content">
             <p>
-                Copyright © {{ date('Y') }} Tucumán Marketing. Todos los derechos reservados.
+                Copyright © {{ date('Y') }} Tucumán Marketing. Todos los derechos reservados. Design by <a href="https://nerdostech.com/" target="_blank">NerdosTech Solutions</a>
             </p>
         </div>
     </div>
@@ -134,3 +134,35 @@
     <i class='bx bx-up-arrow-alt'></i>
 </div>
 <!-- End Go Top Area -->
+<!-- Start WhatsApp Button -->
+<a href="https://wa.me/5493813553101?text=Hola%20Tucum%C3%A1n%20Marketing%2C%20necesito%20informaci%C3%B3n%20de%20tus%20servicios." class="whatsapp-btn" target="_blank">
+    <i class='bx bxl-whatsapp'></i>
+</a>
+
+<style>
+.whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+    color: #fff;
+    transform: scale(1.1);
+}
+</style>
