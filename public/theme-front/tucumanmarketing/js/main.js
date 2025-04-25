@@ -295,3 +295,18 @@ function toggleTheme() {
       document.getElementById('slider').checked = true;
     }
 })();
+
+$(document).ready(function () {
+    $('a.nav-link[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+
+        var target = $($(this).attr('href'));
+        if (target.length) {
+            var offset = 150; // Ajustá este valor según la altura de tu header
+
+            $('html, body').animate({
+                scrollTop: target.offset().top - offset
+            }, 600); // duración en milisegundos
+        }
+    });
+});

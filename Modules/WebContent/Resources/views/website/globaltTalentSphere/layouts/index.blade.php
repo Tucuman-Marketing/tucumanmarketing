@@ -90,13 +90,13 @@
                             <a href="{{ route('public.index') }}" class="nav-link active">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('public.company') }}" class="nav-link">Quiénes somos</a>
+                            <a href="#quienes-somos" class="nav-link">Quiénes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('public.jobs') }}" class="nav-link">¿Por qué elegirnos?</a>
+                            <a href="#porque-elegirnos" class="nav-link">¿Por qué elegirnos?</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('public.uploadCV') }}" class="nav-link">Servicios</a>
+                            <a href="#servicios" class="nav-link">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('public.contact') }}" class="nav-link">Contacto</a>

@@ -43,8 +43,10 @@
 <!-- End Main Banner Area -->
 
 <!-- Start Banking Area -->
-<section class="banking-area pb-100">
+<section id="quienes-somos" class="banking-area pb-100">
     <div class="container">
+        <br>
+        <h1 style="text-align: center;">Quienes somos</h1>
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="banking-image">
@@ -71,7 +73,7 @@
 <!-- End Banking Area -->
 
 <!-- Start Fun Facts Area -->
-<section class="fun-facts-area ptb-100">
+<section id="porque-elegirnos" class="fun-facts-area ptb-100">
     <div class="container">
         <div class="section-title">
             <span>¿Por qué elegirnos?</span>
@@ -171,7 +173,7 @@
 <!-- End Protect Area -->
 
 <!-- Start Services Area -->
-<section class="services-area pt-100 pb-70">
+<section id="servicios" class="services-area pt-100 pb-70">
     <div class="container">
         <div class="section-title">
             <span>Servicios</span>
@@ -382,17 +384,16 @@
 <section class="customer-area ptb-100">
     <div class="container">
         <div class="section-title">
-            <span>Customers say</span>
-            <h2>What customers say about Us</h2>
+            <h2>Lo que dicen nuestros clientes sobre nosotros</h2>
         </div>
 
         <div class="customer-slider owl-carousel owl-theme">
             <div class="customer-item">
                 <img src="{{ asset('theme-front/tucumanmarketing/img/customer/customer-1.jpg') }}" alt="image">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."</p>
+                <p>"Gracias al equipo de Tucumán Marketing logramos ordenar nuestros precios, mejorar nuestra propuesta de valor y duplicar las ventas en solo 3 meses."</p>
 
                 <div class="customer-info">
-                    <h3>Robert jakech</h3>
+                    <h3>Paula Rodríguez</h3>
                     <span>Software engineer</span>
                 </div>
 
@@ -403,10 +404,10 @@
 
             <div class="customer-item">
                 <img src="{{ asset('theme-front/tucumanmarketing/img/customer/customer-2.jpg') }}" alt="image">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."</p>
+                <p>"Nos ayudaron a profesionalizar nuestra imagen de marca y posicionarnos mejor frente a la competencia. Hoy nuestros clientes nos eligen con más confianza."</p>
 
                 <div class="customer-info">
-                    <h3>Joseph nakabale</h3>
+                    <h3>Marcos Fernández</h3>
                     <span>Software engineer</span>
                 </div>
 
@@ -417,10 +418,10 @@
 
             <div class="customer-item">
                 <img src="{{ asset('theme-front/tucumanmarketing/img/customer/customer-1.jpg') }}" alt="image">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."</p>
+                <p>"El acompañamiento fue clave. No solo nos brindaron una estrategia clara, sino que nos guiaron en cada paso para implementarla. Excelente experiencia."</p>
 
                 <div class="customer-info">
-                    <h3>Robert jakech</h3>
+                    <h3>Verónica López</h3>
                     <span>Software engineer</span>
                 </div>
 
@@ -431,10 +432,10 @@
 
             <div class="customer-item">
                 <img src="{{ asset('theme-front/tucumanmarketing/img/customer/customer-2.jpg') }}" alt="image">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."</p>
+                <p>"Con su asesoría entendimos cómo comunicar nuestro diferencial. Ahora tenemos una marca sólida, coherente y reconocida por nuestros clientes."</p>
 
                 <div class="customer-info">
-                    <h3>Joseph nakabale</h3>
+                    <h3>Alejandro González</h3>
                     <span>Software engineer</span>
                 </div>
 
