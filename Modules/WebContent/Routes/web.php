@@ -11,6 +11,7 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
 use Modules\WebContent\Http\Controllers\PublicController;
 
 Route::get('/', [PublicController::class, 'index'])->name('public.index');

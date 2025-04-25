@@ -23,11 +23,11 @@
 
                 <div class="col-lg-6">
                     <div class="main-banner-image">
-                        <img src="{{ asset('theme-front/tucumanmarketing/img/main-banner/banner-image-1.png') }}" alt="Marketing Digital">
-
-                        <div class="banner-mobile">
+                        <img src="{{ asset('theme-front/tucumanmarketing/img/main-banner/banner-image-1.png') }}" class="black-logo" alt="Marketing Digital">
+                        <img src="{{ asset('theme-front/tucumanmarketing/img/main-banner/banner-image-2.png') }}" class="white-logo" alt="Marketing Digital">
+                        {{-- <div class="banner-mobile">
                             <img src="{{ asset('theme-front/tucumanmarketing/img/main-banner/banner-mobile.png') }}" alt="Marketing Digital Mobile">
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -49,24 +49,19 @@
             <div class="col-lg-6">
                 <div class="banking-image">
                     <img src="{{ asset('theme-front/tucumanmarketing/img/banking/banking-1.png') }}" alt="image">
-
-                    <div class="shape-1">
-                        <img src="{{ asset('theme-front/tucumanmarketing/img/banking/banking-shape-1.png') }}" alt="image">
-                    </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="banking-content">
-                    <span>Business banking</span>
-                    <h3>We operate our banking services in many countries around the world</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <span>Hacé que tu marca se destaque. Nosotros te guiamos</span>
+                    <h3>Creamos estrategias personalizadas para mejorar tu posicionamiento, rentabilidad y presencia en el mercado.</h3>
 
                     <ul class="banking-list">
-                        <li><i class="flaticon-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li><i class="flaticon-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</li>
-                        <li><i class="flaticon-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li><i class="flaticon-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua.</li>
+                        <li><i class="flaticon-check"></i> Optimizamos tus precios con enfoque estratégico para mejorar tu rentabilidad.</li>
+                        <li><i class="flaticon-check"></i> Te ayudamos a definir una propuesta de valor clara y diferenciadora.</li>
+                        <li><i class="flaticon-check"></i> Acompañamos el desarrollo de tu marca con visión de largo plazo.</li>
+                        <li><i class="flaticon-check"></i> Diseñamos acciones de marketing alineadas a los objetivos de tu negocio.</li>
                     </ul>
                 </div>
             </div>
@@ -79,8 +74,8 @@
 <section class="fun-facts-area ptb-100">
     <div class="container">
         <div class="section-title">
-            <span>Why choose us</span>
-            <h2>Our bank has been providing services to its customers for almost 25 years.</h2>
+            <span>¿Por qué elegirnos?</span>
+            <h2>Somos una consultora de negocios y marketing con 15 años de experiencia.</h2>
         </div>
 
         <div class="fun-facts-inner">
@@ -88,36 +83,36 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="358412">00</span>
+                            <span class="odometer" data-count="+500">00</span>
                         </h3>
-                        <p>Happy customers</p>
+                        <p>clientes</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="25">00</span>
+                            <span class="odometer" data-count="15">00</span>
                         </h3>
-                        <p>Years in banking</p>
+                        <p>Años de mercado</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="2545">00</span>
+                            <span class="odometer" data-count="1200">00</span>
                         </h3>
-                        <p>Our branches</p>
+                        <p>Proyectos completados</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="54285">00</span>
+                            <span class="odometer" data-count="350">00</span>
                         </h3>
-                        <p>Successfully works</p>
+                        <p>Campañas publicitarias</p>
                     </div>
                 </div>
             </div>
@@ -132,17 +127,19 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="protect-content">
-                    <span>Protect your money</span>
-                    <h3>We make every effort to ensure that our customers money is well protected.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <span>Potenciamos tu negocio, cuidamos tu inversión</span>
+                    <h3>Creamos soluciones inteligentes para que tu marca crezca con seguridad y visión estratégica.</h3>
+                    <p>Trabajamos junto a vos para que cada decisión en tu emprendimiento, comercio o empresa esté respaldada
+                        por análisis, experiencia y resultados. Nuestra misión es acompañarte con acciones concretas, medibles y
+                        enfocadas en el largo plazo.</p>
 
                     <div class="protect-inner-content">
                         <div class="number">
                             <span>1</span>
                         </div>
 
-                        <h4>Security in bank level</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h4>Diagnóstico estratégico profundo</h4>
+                        <p>Analizamos tu negocio en su contexto real para ofrecerte un plan de acción sólido, adaptado a tu etapa y objetivos.</p>
                     </div>
 
                     <div class="protect-inner-content">
@@ -150,8 +147,8 @@
                             <span>2</span>
                         </div>
 
-                        <h4>Investments best in class</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h4>Metodología enfocada en resultados</h4>
+                        <p>Nuestras recomendaciones están pensadas para lograr rentabilidad, posicionamiento y valor de marca desde el primer mes.</p>
                     </div>
 
                     <div class="protect-inner-content">
@@ -159,8 +156,8 @@
                             <span>3</span>
                         </div>
 
-                        <h4>Secure watch asset</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h4>Acompañamiento continuo y personalizado</h4>
+                        <p>No solo diseñamos estrategias, te guiamos paso a paso para implementarlas con éxito, adaptándonos a tu ritmo y capacidad operativa.</p>
                     </div>
                 </div>
             </div>
@@ -177,96 +174,96 @@
 <section class="services-area pt-100 pb-70">
     <div class="container">
         <div class="section-title">
-            <span>Banking services</span>
-            <h2>Our bank has been provided various banking services to our customers.</h2>
+            <span>Servicios</span>
+            <h2>Nuestros clientes pueden acceder a estos servicios</h2>
         </div>
 
         <div class="services-slider owl-carousel owl-theme">
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-mobile-banking"></i>
+                    <i class="fas fa-chart-line"></i>
                 </div>
                 <h3>
-                    <a href="#">Mobile banking</a>
+                    <a href="#">Estrategias de Marketing Digital</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Creamos estrategias personalizadas para aumentar tu visibilidad y atraer más clientes a tu negocio.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-credit-card"></i>
+                    <i class="fas fa-share-alt"></i>
                 </div>
                 <h3>
-                    <a href="#">Credit cards</a>
+                    <a href="#">Gestión de Redes Sociales</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Impulsa tu marca en redes sociales con contenido creativo y campañas efectivas.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-payment-security"></i>
+                    <i class="fas fa-laptop-code"></i>
                 </div>
                 <h3>
-                    <a href="#">Secure payment</a>
+                    <a href="#">Diseño Web Profesional</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Diseñamos sitios web modernos y funcionales que representan la esencia de tu marca.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-savings"></i>
+                    <i class="fas fa-search"></i>
                 </div>
                 <h3>
-                    <a href="#">Saving account</a>
+                    <a href="#">SEO y Posicionamiento Web</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Optimiza tu presencia en buscadores y alcanza las primeras posiciones en Google.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-protection"></i>
+                    <i class="fas fa-bullhorn"></i>
                 </div>
                 <h3>
-                    <a href="#">Business banking</a>
+                    <a href="#">Publicidad Digital</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Llega a tu público objetivo con campañas publicitarias en Google Ads y redes sociales.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-online-banking"></i>
+                    <i class="fas fa-envelope"></i>
                 </div>
                 <h3>
-                    <a href="#">Personal savings</a>
+                    <a href="#">Email Marketing</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Conecta con tus clientes a través de campañas de email marketing personalizadas.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-positive-vote"></i>
+                    <i class="fas fa-chart-pie"></i>
                 </div>
                 <h3>
-                    <a href="#">Personal loans</a>
+                    <a href="#">Análisis de Datos</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Toma decisiones informadas con reportes detallados y análisis de métricas clave.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="flaticon-bank"></i>
+                    <i class="fas fa-palette"></i>
                 </div>
                 <h3>
-                    <a href="#">Business loans</a>
+                    <a href="#">Branding y Diseño Gráfico</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Construimos una identidad visual única para que tu marca destaque en el mercado.</p>
                 <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
         </div>
@@ -275,7 +272,7 @@
 <!-- End Services Area -->
 
 <!-- Start Credit Card Area -->
-<section class="credit-card-area bg-ffffff">
+{{-- <section class="credit-card-area bg-ffffff">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7">
@@ -331,11 +328,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Credit Card Area -->
 
 <!-- Start Below Area -->
-<section class="below-area ptb-100">
+{{-- <section class="below-area ptb-100">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6">
@@ -378,7 +375,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Below Area -->
 
 <!-- Start Customer Area -->
@@ -451,7 +448,7 @@
 <!-- End Customer Area -->
 
 <!-- Start App Area -->
-<section class="app-area ptb-100">
+{{-- <section class="app-area ptb-100">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -477,11 +474,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End App Area -->
 
 <!-- Start Blog Area -->
-<section class="blog-area pt-100 pb-70">
+{{-- <section class="blog-area pt-100 pb-70">
     <div class="container">
         <div class="section-title">
             <span>Latest news</span>
@@ -571,11 +568,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Blog Area -->
 
 <!-- Start Partner Area -->
-<div class="partner-area ptb-100">
+{{-- <div class="partner-area ptb-100">
     <div class="container">
         <div class="partner-slider owl-carousel owl-theme">
             <div class="partner-item">
@@ -599,7 +596,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Partner Area -->
 
 @endsection

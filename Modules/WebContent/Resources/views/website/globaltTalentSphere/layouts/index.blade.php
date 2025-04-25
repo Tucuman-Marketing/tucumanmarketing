@@ -19,7 +19,7 @@
 <!-- End Preloader Area -->
 
 <!-- Start Top Header Area -->
-<div class="top-header-area">
+{{-- <div class="top-header-area">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Top Header Area -->
 
 <!-- Start Navbar Area -->
@@ -90,26 +90,20 @@
                             <a href="{{ route('public.index') }}" class="nav-link active">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('public.uploadCV') }}" class="nav-link">Dejanos tu CV</a>
+                            <a href="{{ route('public.company') }}" class="nav-link">Quiénes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('public.jobs') }}" class="nav-link">Oportunidades</a>
+                            <a href="{{ route('public.jobs') }}" class="nav-link">¿Por qué elegirnos?</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('public.company') }}" class="nav-link">Empresas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ route('public.about') }}" class="nav-link">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ route('public.posts') }}" class="nav-link">Blog</a>
+                            <a href="{{ route('public.uploadCV') }}" class="nav-link">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('public.contact') }}" class="nav-link">Contacto</a>
                         </li>
                     </ul>
 
-                    <div class="others-options d-flex align-items-center">
+                    {{-- <div class="others-options d-flex align-items-center">
                         <div class="option-item">
                             <form class="search-box" action="#" method="GET">
                                 <input type="text" class="form-control" name="q" placeholder="Buscar...">
@@ -120,7 +114,7 @@
                         <div class="option-item">
                             <a href="#" class="default-btn">Contactar</a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </nav>
         </div>
