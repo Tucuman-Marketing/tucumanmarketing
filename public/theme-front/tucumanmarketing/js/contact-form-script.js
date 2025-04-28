@@ -60,3 +60,16 @@
         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
 }(jQuery)); // End of use strict
+
+$(document).ready(function () {
+    $('.contact-form form').on('submit', function () {
+        // Seleccionar el botón de enviar
+        var submitButton = $(this).find('button[type="submit"]');
+
+        // Agregar el spinner al botón
+        submitButton.html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Enviando...');
+
+        // Deshabilitar el botón para evitar múltiples envíos
+        submitButton.prop('disabled', true);
+    });
+});

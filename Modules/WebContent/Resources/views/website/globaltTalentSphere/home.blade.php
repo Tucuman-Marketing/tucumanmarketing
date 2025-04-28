@@ -47,6 +47,10 @@
     <div class="container">
         <br>
         <h1 style="text-align: center;">Quienes somos</h1>
+        <br>
+        <h3 style="text-align: center;">Somos una consultora de negocios y marketing con 15 años de experiencia
+            Actualmente brindamos servicios de consultoría o asesoramiento personalizado
+            a emprendedores, comercios, empresas e industrias.</h3>
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="banking-image">

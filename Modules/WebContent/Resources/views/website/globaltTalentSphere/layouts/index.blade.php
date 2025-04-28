@@ -90,13 +90,13 @@
                             <a href="{{ route('public.index') }}" class="nav-link active">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#quienes-somos" class="nav-link">Quiénes somos</a>
+                            <a href="{{ route('public.index') }}#quienes-somos" class="nav-link">Quiénes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#porque-elegirnos" class="nav-link">¿Por qué elegirnos?</a>
+                            <a href="{{ route('public.index') }}#porque-elegirnos" class="nav-link">¿Por qué elegirnos?</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#servicios" class="nav-link">Servicios</a>
+                            <a href="{{ route('public.index') }}#servicios" class="nav-link">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('public.contact') }}" class="nav-link">Contacto</a>

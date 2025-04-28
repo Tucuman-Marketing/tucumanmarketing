@@ -297,16 +297,38 @@ function toggleTheme() {
 })();
 
 $(document).ready(function () {
-    $('a.nav-link[href^="#"]').on('click', function (e) {
-        e.preventDefault();
+    // Click en enlaces internos
+    $('a.nav-link[href*="#"]').on('click', function (e) {
+        var href = $(this).attr('href');
+        var hash = href.substring(href.indexOf("#"));
 
-        var target = $($(this).attr('href'));
-        if (target.length) {
-            var offset = 150; // Ajustá este valor según la altura de tu header
+        if (hash.length > 1) {
+            var target = $(hash);
 
-            $('html, body').animate({
-                scrollTop: target.offset().top - offset
-            }, 600); // duración en milisegundos
+            if (target.length) {
+                e.preventDefault();
+                var offset = 150;
+
+                $('html, body').animate({
+                    scrollTop: target.offset().top - offset
+                }, 600);
+            }
         }
     });
+
+    // Al cargar con hash en URL (desde otra página)
+    if (window.location.hash) {
+        var hash = window.location.hash;
+        var target = $(hash);
+
+        if (target.length) {
+            var offset = 120;
+
+            setTimeout(function () {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - offset
+                }, 600);
+            }, 300);
+        }
+    }
 });
