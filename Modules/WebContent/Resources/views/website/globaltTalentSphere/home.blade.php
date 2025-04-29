@@ -16,7 +16,7 @@
                         <h1>Impulsamos tu presencia digital en Tucumán</h1>
                         <p>Somos una agencia de marketing digital especializada en ayudar a empresas tucumanas a crecer y destacar en el mundo digital.</p>
                         <div class="banner-btn">
-                            <a href="#" class="default-btn">Comenzar ahora</a>
+                            <a href="{{ route('public.contact') }}" class="default-btn">Comenzar ahora</a>
                         </div>
                     </div>
                 </div>

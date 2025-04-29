@@ -406,7 +406,16 @@ class PublicController extends Controller
 
     public function contactSubmit(Request $request) {
 
-        Log::info('TEMP BACKUP. Valores recibidos de la forma: ' . json_encode($request->all()));
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'message' => 'required|string|max:5000',
+        ], [
+            'name.required' => 'El nombre es obligatorio.',
+            'email.required' => 'El correo electrónico es obligatorio.',
+            'email.email' => 'El correo electrónico debe ser válido.',
+            'message.required' => 'El mensaje es obligatorio.',
+        ]);
 
         $data = [
             'name'    => $request->name,
