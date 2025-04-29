@@ -57,7 +57,7 @@ class PublicController extends Controller
         $posts = BlogPost::where('published_at', '<=', now())->orderBy('published_at', 'desc')
         ->take(3)->get();
 
-        return view('webcontent::website.globaltTalentSphere.home',compact('posts'));
+        return view('webcontent::website.rrhh.home',compact('posts'));
     }
 
     public function processWork()
@@ -71,7 +71,7 @@ class PublicController extends Controller
         $posts = BlogPost::where('published_at', '<=', now())->orderBy('published_at', 'desc')
         ->paginate(10);
 
-        return view('webcontent::website.globaltTalentSphere.posts',compact('posts','title'));
+        return view('webcontent::website.rrhh.posts',compact('posts','title'));
     }
 
     public function postsByCategory($category)
@@ -80,7 +80,7 @@ class PublicController extends Controller
         $title = 'Publicaciones por Categoría: '.$category->name;
         $posts = BlogPost::where('category_id', $category->id)->where('published_at', '<=', now())->orderBy('published_at', 'desc')
         ->paginate(10);
-        return view('webcontent::website.globaltTalentSphere.posts',compact('posts','title'));
+        return view('webcontent::website.rrhh.posts',compact('posts','title'));
     }
 
     public function postsByTag($tag)
@@ -89,7 +89,7 @@ class PublicController extends Controller
         $title = 'Publicaciones por Etiqueta: '.$tag->name;
         $posts = $tag->posts()->where('published_at', '<=', now())->orderBy('published_at', 'desc')
         ->paginate(10);
-        return view('webcontent::website.globaltTalentSphere.posts',compact('posts','title'));
+        return view('webcontent::website.rrhh.posts',compact('posts','title'));
     }
 
     public function postDetails($slug)
@@ -101,22 +101,22 @@ class PublicController extends Controller
         //traeme post relacionados de la misma categoria
         $relatedPosts = BlogPost::where('category_id', $post->category_id)->where('id', '!=', $post->id)->inRandomOrder()->take(3)->get();
 
-        return view('webcontent::website.globaltTalentSphere.postDetails',compact('post','categories','tags','relatedPosts'));
+        return view('webcontent::website.rrhh.postDetails',compact('post','categories','tags','relatedPosts'));
     }
 
     public function positions()
     {
-        return view('webcontent::website.globaltTalentSphere.positions');
+        return view('webcontent::website.rrhh.positions');
     }
 
     public function about()
     {
-        return view('webcontent::website.globaltTalentSphere.about');
+        return view('webcontent::website.rrhh.about');
     }
 
     public function faq()
     {
-        return view('webcontent::website.globaltTalentSphere.faq');
+        return view('webcontent::website.rrhh.faq');
     }
 
     public function jobs()
@@ -135,7 +135,7 @@ class PublicController extends Controller
             ->take(10)
             ->get();
 
-        return view('webcontent::website.globaltTalentSphere.jobs',compact('jobs','categories','tags','title'));
+        return view('webcontent::website.rrhh.jobs',compact('jobs','categories','tags','title'));
     }
 
     public function jobsByCategory($category)
@@ -156,7 +156,7 @@ class PublicController extends Controller
             ->take(10)
             ->get();
 
-        return view('webcontent::website.globaltTalentSphere.jobs',compact('jobs','title','categories','tags'));
+        return view('webcontent::website.rrhh.jobs',compact('jobs','title','categories','tags'));
     }
 
     public function jobsByTag($tag)
@@ -175,7 +175,7 @@ class PublicController extends Controller
             ->inRandomOrder()
             ->take(10)
             ->get();
-        return view('webcontent::website.globaltTalentSphere.jobs',compact('jobs','title','categories','tags'));
+        return view('webcontent::website.rrhh.jobs',compact('jobs','title','categories','tags'));
     }
 
     public function jobDetails(Request $request,$slug)
@@ -193,7 +193,7 @@ class PublicController extends Controller
             ->inRandomOrder()
             ->take(10)
             ->get();
-        return view('webcontent::website.globaltTalentSphere.jobDetails',compact('job','categories','tags','relatedJobs','skills'));
+        return view('webcontent::website.rrhh.jobDetails',compact('job','categories','tags','relatedJobs','skills'));
     }
 
     public function jobEnrollment(Request $request,$slug)
@@ -209,7 +209,7 @@ class PublicController extends Controller
             ->inRandomOrder()
             ->take(10)
             ->get();
-        return view('webcontent::website.globaltTalentSphere.jobEnrollment',compact('job','categories','tags','skills','relatedJobs'));
+        return view('webcontent::website.rrhh.jobEnrollment',compact('job','categories','tags','skills','relatedJobs'));
     }
 
     public function jobEnrollmentStore(Request $request)
@@ -383,7 +383,7 @@ class PublicController extends Controller
             ->take(10)
             ->get();
 
-        return view('webcontent::website.globaltTalentSphere.jobs',compact('jobs','title','categories','tags'));
+        return view('webcontent::website.rrhh.jobs',compact('jobs','title','categories','tags'));
     }
 
     public function uploadCV(Request $request)
@@ -396,12 +396,12 @@ class PublicController extends Controller
             ->take(10)
             ->get();
         $skills = RecruitmentSkills::all();
-        return view('webcontent::website.globaltTalentSphere.uploadCV',compact('categories','tags','skills'));
+        return view('webcontent::website.rrhh.uploadCV',compact('categories','tags','skills'));
     }
 
     public function contact()
     {
-        return view('webcontent::website.globaltTalentSphere.contact');
+        return view('webcontent::website.rrhh.contact');
     }
 
     public function contactSubmit(Request $request) {
@@ -461,7 +461,7 @@ class PublicController extends Controller
 
     public function company()
     {
-        return view('webcontent::website.globaltTalentSphere.company');
+        return view('webcontent::website.rrhh.company');
     }
 
     public function contactCompanySubmit(Request $request) {

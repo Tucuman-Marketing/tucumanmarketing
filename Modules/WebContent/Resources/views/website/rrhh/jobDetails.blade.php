@@ -1,4 +1,4 @@
-@extends('webcontent::website.globaltTalentSphere.layouts.index')
+@extends('webcontent::website.rrhh.layouts.index')
 
 @section('other-css')
 
@@ -123,6 +123,6 @@
 @parent
 
     {{-- FILE-UPLOAD --}}
-    @include('webcontent::website.globaltTalentSphere.js.file-upload')
+    @include('webcontent::website.rrhh.js.file-upload')
 @stop
 

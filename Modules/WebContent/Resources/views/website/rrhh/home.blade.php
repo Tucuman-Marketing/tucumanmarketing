@@ -1,4 +1,4 @@
-@extends('webcontent::website.globaltTalentSphere.layouts.index')
+@extends('webcontent::website.rrhh.layouts.index')
 
 @section('other-css')
 @stop

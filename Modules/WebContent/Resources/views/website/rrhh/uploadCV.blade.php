@@ -1,4 +1,4 @@
-@extends('webcontent::website.globaltTalentSphere.layouts.index')
+@extends('webcontent::website.rrhh.layouts.index')
 
 @section('other-css')
 <style>
@@ -51,7 +51,7 @@
                 <form action="{{ route('public.jobEnrollment.store')}}" method="POST" enctype="multipart/form-data">
                     @csrf
 
-                        @include('webcontent::website.globaltTalentSphere.forms.uploadCV')
+                        @include('webcontent::website.rrhh.forms.uploadCV')
 
                         <div class="d-flex justify-content-center my-4 button">
                             <button type="submit">Enviar</button>
@@ -122,6 +122,6 @@
 @parent
 
 {{-- FILE-UPLOAD --}}
-@include('webcontent::website.globaltTalentSphere.js.file-upload')
+@include('webcontent::website.rrhh.js.file-upload')
 
 @stop

@@ -1,4 +1,4 @@
-@extends('webcontent::website.globaltTalentSphere.layouts.index')
+@extends('webcontent::website.rrhh.layouts.index')
 
 @section('other-css')
 
@@ -52,7 +52,7 @@
                     <input type="hidden" name="job_id" value="{{ $job->id }}">
 
 
-                    @include('webcontent::website.globaltTalentSphere.forms.uploadCV')
+                    @include('webcontent::website.rrhh.forms.uploadCV')
 
                     <div class="d-flex justify-content-center my-4 button">
                         <button type="submit">Enviar</button>
@@ -128,6 +128,6 @@
 @parent
 
 {{-- FILE-UPLOAD --}}
-@include('webcontent::website.globaltTalentSphere.js.file-upload')
+@include('webcontent::website.rrhh.js.file-upload')
 
 @stop

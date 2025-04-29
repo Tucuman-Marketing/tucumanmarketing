@@ -3,7 +3,7 @@
 
     {{-- HEAD --}}
     @section('htmlheader')
-        @include('webcontent::website.globaltTalentSphere.layouts.htmlheader')
+        @include('webcontent::website.rrhh.layouts.htmlheader')
     @show
     {{-- HEAD --}}
 
@@ -125,12 +125,12 @@
 @yield('content')
 
 <!--footer start-->
-@include('webcontent::website.globaltTalentSphere.layouts.footer')
+@include('webcontent::website.rrhh.layouts.footer')
 <!--footer end-->
 
 <!--scripts-->
 @section('scripts')
-    @include('webcontent::website.globaltTalentSphere.layouts.scripts')
+    @include('webcontent::website.rrhh.layouts.scripts')
 @show
 <!--scripts-->
 
