@@ -3,10 +3,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Tucumán Marketing - Tu socio estratégico en marketing y publicidad en Tucumán. Ofrecemos soluciones integrales de marketing para empresas y clientes.">
-    <meta name="keywords" content="marketing, publicidad, Tucumán, agencia de marketing, SEO, posicionamiento web">
-    <meta name="author" content="Tucumán Marketing">
+    <title>Tucumán Marketing - Soluciones Integrales de Marketing</title>
+
+
+   <!-- SEO Meta Tags -->
+    <meta name="description" content="Agencia de marketing en Tucumán. Potenciamos tu empresa con estrategias de SEO local, publicidad online, redes sociales y diseño web profesional.">
+    <meta name="keywords" content="agencia de marketing digital en Tucumán, SEO Tucumán, publicidad en redes sociales, diseño web profesional, campañas digitales Tucumán, posicionamiento en Google, marketing para pymes">
+    <meta name="author" content="Tucumán Marketing - Expertos en Marketing Digital en Tucumán">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Tucumán Marketing - Soluciones Integrales de Marketing">
@@ -56,7 +59,6 @@
     <link rel="stylesheet" href="{{ asset('theme-front/tucumanmarketing/css/responsive.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-    <title>Tucumán Marketing - Soluciones Integrales de Marketing</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('theme-front/tucumanmarketing/img/icon/favicon.ico') }}">
