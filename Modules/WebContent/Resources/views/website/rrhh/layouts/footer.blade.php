@@ -11,22 +11,17 @@
 
                         <ul class="social">
                             <li>
-                                <a href="#" class="facebook" target="_blank">
+                                <a href="https://www.facebook.com/share/19TQNtyRbF/" class="facebook" target="_blank">
                                     <i class='bx bxl-facebook'></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="twitter" target="_blank">
-                                    <i class='bx bxl-twitter'></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="pinterest" target="_blank">
+                                <a href="https://www.instagram.com/tucumanmkt" class="pinterest" target="_blank">
                                     <i class='bx bxl-instagram'></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="linkedin" target="_blank">
+                                <a href="https://www.linkedin.com/company/tucumanmarketing/" class="linkedin" target="_blank">
                                     <i class='bx bxl-linkedin'></i>
                                 </a>
                             </li>
