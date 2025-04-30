@@ -7,7 +7,7 @@
                     <div class="footer-logo">
                         <h2><a href="#">Tucumán Marketing</a></h2>
 
-                        <p>Tu socio estratégico en marketing digital en Tucumán. Impulsamos el crecimiento de tu negocio con soluciones digitales innovadoras.</p>
+                        <p>Tu socio estratégico en marketing en Tucumán. Impulsamos el crecimiento de tu negocio con soluciones digitales innovadoras.</p>
 
                         <ul class="social">
                             <li>

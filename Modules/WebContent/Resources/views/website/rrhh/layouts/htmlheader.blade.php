@@ -10,7 +10,7 @@
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Tucumán Marketing - Soluciones Integrales de Marketing">
-    <meta property="og:description" content="Transformamos tu presencia digital con estrategias de marketing innovadoras y resultados medibles.">
+    <meta property="og:description" content="Transformamos tu presencia con estrategias de marketing innovadoras y resultados medibles.">
     <meta property="og:url" content="https://tucumanmarketing.com">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ asset('theme-front/tucumanmarketing/img/icon/logo.png') }}">
@@ -23,7 +23,7 @@
 
     <!-- whassapp -->
     <meta property="og:title" content="Tucumán Marketing - Soluciones Integrales de Marketing">
-    <meta property="og:description" content="Transformamos tu presencia digital con estrategias de marketing innovadoras y resultados medibles.">
+    <meta property="og:description" content="Transformamos tu presencia con estrategias de marketing innovadoras y resultados medibles.">
     <meta property="og:image" content="{{ asset('theme-front/tucumanmarketing/img/icon/logo.png') }}">
     <meta property="og:url" content="https://tucumanmarketing.com">
     <meta property="og:type" content="website">
