@@ -193,7 +193,7 @@
                     <a href="#">Estrategias de Marketing Digital</a>
                 </h3>
                 <p>Creamos estrategias personalizadas para aumentar tu visibilidad y atraer más clientes a tu negocio.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
+                {{-- <a href="#" class="learn-btn">Leer mas <i class="flaticon-right-arrow"></i></a> --}}
             </div>
 
             <div class="single-services-item">
@@ -204,7 +204,6 @@
                     <a href="#">Gestión de Redes Sociales</a>
                 </h3>
                 <p>Impulsa tu marca en redes sociales con contenido creativo y campañas efectivas.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
@@ -215,7 +214,6 @@
                     <a href="#">Diseño Web Profesional</a>
                 </h3>
                 <p>Diseñamos sitios web modernos y funcionales que representan la esencia de tu marca.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
@@ -226,7 +224,6 @@
                     <a href="#">SEO y Posicionamiento Web</a>
                 </h3>
                 <p>Optimiza tu presencia en buscadores y alcanza las primeras posiciones en Google.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
@@ -237,7 +234,6 @@
                     <a href="#">Publicidad Digital</a>
                 </h3>
                 <p>Llega a tu público objetivo con campañas publicitarias en Google Ads y redes sociales.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
@@ -248,7 +244,6 @@
                     <a href="#">Email Marketing</a>
                 </h3>
                 <p>Conecta con tus clientes a través de campañas de email marketing personalizadas.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
@@ -259,7 +254,6 @@
                     <a href="#">Análisis de Datos</a>
                 </h3>
                 <p>Toma decisiones informadas con reportes detallados y análisis de métricas clave.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
 
             <div class="single-services-item">
@@ -270,7 +264,6 @@
                     <a href="#">Branding y Diseño Gráfico</a>
                 </h3>
                 <p>Construimos una identidad visual única para que tu marca destaque en el mercado.</p>
-                <a href="#" class="learn-btn">Learn more <i class="flaticon-right-arrow"></i></a>
             </div>
         </div>
     </div>
@@ -314,7 +307,7 @@
             </div>
 
             <div class="customer-item">
-                <img src="{{ asset('theme-front/tucumanmarketing/img/customer/customer-1.jpg') }}" alt="image">
+                <img src="{{ asset('theme-front/tucumanmarketing/img/client/client-1.jpg') }}" alt="image">
                 <p>"El acompañamiento fue clave. No solo nos brindaron una estrategia clara, sino que nos guiaron en cada paso para implementarla. Excelente experiencia."</p>
 
                 <div class="customer-info">
@@ -328,7 +321,7 @@
             </div>
 
             <div class="customer-item">
-                <img src="{{ asset('theme-front/tucumanmarketing/img/customer/customer-2.jpg') }}" alt="image">
+                <img src="{{ asset('theme-front/tucumanmarketing/img/client/client-2.jpg') }}" alt="image">
                 <p>"Con su asesoría entendimos cómo comunicar nuestro diferencial. Ahora tenemos una marca sólida, coherente y reconocida por nuestros clientes."</p>
 
                 <div class="customer-info">
