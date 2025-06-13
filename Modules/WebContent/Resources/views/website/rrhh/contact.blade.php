@@ -58,7 +58,6 @@
                     <h3>Horarios de atención</h3>
                     <p>Lun–Vie: 9 AM - 6 PM</p>
                     <p>Sábado: 9 AM - 1 PM</p>
-                    <p>Domingo: Cerrado</p>
                 </div>
             </div>
         </div>

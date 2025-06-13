@@ -52,12 +52,7 @@ class PublicController extends Controller
 
     public function index()
     {
-
-        //mandamos los ultimos 3 post
-        $posts = BlogPost::where('published_at', '<=', now())->orderBy('published_at', 'desc')
-        ->take(3)->get();
-
-        return view('webcontent::website.rrhh.home',compact('posts'));
+        return view('webcontent::website.rrhh.home');
     }
 
     public function processWork()

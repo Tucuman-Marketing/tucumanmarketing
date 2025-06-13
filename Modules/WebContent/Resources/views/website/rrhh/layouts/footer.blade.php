@@ -2,7 +2,7 @@
 <section class="footer-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-6 col-sm-6">
                 <div class="single-footer-widget">
                     <div class="footer-logo">
                         <h2><a href="#">Tucumán Marketing</a></h2>
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-6 col-sm-6">
                 <div class="single-footer-widget">
                     <h3>Contacto</h3>
 
@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
+            {{-- <div class="col-lg-3 col-sm-6">
                 <div class="single-footer-widget pl-5">
                     <h3>Servicios</h3>
 
@@ -106,7 +106,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

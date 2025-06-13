@@ -1677,6 +1677,39 @@ Services Area CSS
 .services-area.bg-ffffff .single-services-item:hover .icon i {
   color: #ffffff;
 }
+/* Ajuste de tamaño uniforme para las tarjetas de servicios */
+.services-area .single-services-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 350px; /* Altura fija para todas las tarjetas */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.services-area .single-services-item .icon {
+    font-size: 50px; /* Tamaño uniforme para los íconos */
+    margin-bottom: 15px;
+}
+
+.services-area .single-services-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.services-area .single-services-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+    flex-grow: 1; /* Permite que el texto ocupe el espacio disponible */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .services-area.bg-ffffff .services-slider.owl-theme .owl-nav [class*=owl-] {
   color: #4865ff;
 }
