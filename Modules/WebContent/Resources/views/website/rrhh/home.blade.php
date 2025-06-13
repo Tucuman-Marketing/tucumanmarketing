@@ -89,7 +89,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="+500">00</span>
+                            <span class="odometer" data-count="+450">00</span>
                         </h3>
                         <p>clientes</p>
                     </div>
@@ -107,7 +107,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="1200">00</span>
+                            <span class="odometer" data-count="423">00</span>
                         </h3>
                         <p>Proyectos completados</p>
                     </div>
@@ -187,83 +187,52 @@
         <div class="services-slider owl-carousel owl-theme">
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="fas fa-chart-line"></i>
+                    <i class="fas fa-user-tie fa-3x text-danger"></i>
                 </div>
                 <h3>
-                    <a href="#">Estrategias de Marketing Digital</a>
+                    <a href="#">Asesoramiento Estratégico</a>
                 </h3>
-                <p>Creamos estrategias personalizadas para aumentar tu visibilidad y atraer más clientes a tu negocio.</p>
-                {{-- <a href="#" class="learn-btn">Leer mas <i class="flaticon-right-arrow"></i></a> --}}
+                <p>Te guiamos con ideas claras y prácticas para potenciar tu negocio y tomar mejores decisiones comerciales.</p>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="fas fa-share-alt"></i>
+                    <i class="fas fa-certificate fa-3x text-danger"></i>
                 </div>
                 <h3>
-                    <a href="#">Gestión de Redes Sociales</a>
+                    <a href="#">Registro de Marca</a>
                 </h3>
-                <p>Impulsa tu marca en redes sociales con contenido creativo y campañas efectivas.</p>
+                <p>Protegé tu identidad comercial con nuestro servicio completo de registro de marca en INPI y acompañamiento legal.</p>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="fas fa-laptop-code"></i>
+                    <i class="fas fa-chart-line fa-3x text-danger"></i>
                 </div>
                 <h3>
-                    <a href="#">Diseño Web Profesional</a>
+                    <a href="#">Optimización de Negocio</a>
                 </h3>
-                <p>Diseñamos sitios web modernos y funcionales que representan la esencia de tu marca.</p>
+                <p>Analizamos tus procesos y diseñamos estrategias para mejorar tu rentabilidad, operaciones y experiencia de cliente.</p>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-calendar-check fa-3x text-danger"></i>
                 </div>
                 <h3>
-                    <a href="#">SEO y Posicionamiento Web</a>
+                    <a href="#">Organización de Eventos</a>
                 </h3>
-                <p>Optimiza tu presencia en buscadores y alcanza las primeras posiciones en Google.</p>
+                <p>Planificamos y ejecutamos eventos que conectan tu marca con el público adecuado, generando impacto y recordación.</p>
             </div>
 
             <div class="single-services-item">
                 <div class="icon">
-                    <i class="fas fa-bullhorn"></i>
+                    <i class="fas fa-bullhorn fa-3x text-danger"></i>
                 </div>
                 <h3>
-                    <a href="#">Publicidad Digital</a>
+                    <a href="#">Construcción y Posicionamiento de Marca</a>
                 </h3>
-                <p>Llega a tu público objetivo con campañas publicitarias en Google Ads y redes sociales.</p>
-            </div>
-
-            <div class="single-services-item">
-                <div class="icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <h3>
-                    <a href="#">Email Marketing</a>
-                </h3>
-                <p>Conecta con tus clientes a través de campañas de email marketing personalizadas.</p>
-            </div>
-
-            <div class="single-services-item">
-                <div class="icon">
-                    <i class="fas fa-chart-pie"></i>
-                </div>
-                <h3>
-                    <a href="#">Análisis de Datos</a>
-                </h3>
-                <p>Toma decisiones informadas con reportes detallados y análisis de métricas clave.</p>
-            </div>
-
-            <div class="single-services-item">
-                <div class="icon">
-                    <i class="fas fa-palette"></i>
-                </div>
-                <h3>
-                    <a href="#">Branding y Diseño Gráfico</a>
-                </h3>
-                <p>Construimos una identidad visual única para que tu marca destaque en el mercado.</p>
+                <p>Desarrollamos tu marca desde cero o la relanzamos con una estrategia sólida que refleje sus valores y la diferencie en el mercado.</p>
             </div>
         </div>
     </div>
