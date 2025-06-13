@@ -283,7 +283,7 @@
                 <p>"Gracias al equipo de Tucumán Marketing logramos ordenar nuestros precios, mejorar nuestra propuesta de valor y duplicar las ventas en solo 3 meses."</p>
 
                 <div class="customer-info">
-                    <h3>Paula Rodríguez</h3>
+                    <h3>Juan Rodríguez</h3>
                     <span>Software engineer</span>
                 </div>
 
@@ -311,7 +311,7 @@
                 <p>"El acompañamiento fue clave. No solo nos brindaron una estrategia clara, sino que nos guiaron en cada paso para implementarla. Excelente experiencia."</p>
 
                 <div class="customer-info">
-                    <h3>Verónica López</h3>
+                    <h3>Vicente López</h3>
                     <span>Software engineer</span>
                 </div>
 
