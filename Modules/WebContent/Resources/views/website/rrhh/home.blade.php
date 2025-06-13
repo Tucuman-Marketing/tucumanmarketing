@@ -6,6 +6,7 @@
 @section('content')
 @include('flash::message')
 
+
 <!-- Start Main Banner Area -->
 <div class="main-banner">
     <div class="main-banner-item">
