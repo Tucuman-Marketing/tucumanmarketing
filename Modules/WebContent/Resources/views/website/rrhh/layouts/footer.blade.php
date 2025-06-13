@@ -43,7 +43,7 @@
                         <li>
                             <i class='bx bx-envelope'></i>
                             <span>Email</span>
-                            <a href="mailto:info@tucumanmarketing.com">info@tucumanmarketing.com</a>
+                            <a href="mailto:info@tucumanmarketing.com.ar">info@tucumanmarketing.com.ar</a>
                         </li>
                         <li>
                             <i class='bx bx-map'></i>

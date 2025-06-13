@@ -45,7 +45,7 @@
 
                     <h3>Contacto</h3>
                     <p><a href="tel:+5493813553101">+54 9 381 355-3101</a></p>
-                    <p><a href="mailto:info@tucumanmarketing.com">info@tucumanmarketing.com</a></p>
+                    <p><a href="mailto:info@tucumanmarketing.com.ar">info@tucumanmarketing.com.ar</a></p>
                 </div>
             </div>
 
